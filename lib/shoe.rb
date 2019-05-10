@@ -16,6 +16,11 @@ def properties
   @tattered
 end
 
+def condition=(tattered)
+  @tattered=tattered
+  
+  def condition 
+    @tattered 
 
 
 def color=(color)
