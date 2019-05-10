@@ -1,39 +1,39 @@
-class Book 
+class Shoe
 
-def initialize(title)
-  @title = title 
+def initialize(brand)
+  @brand = brand 
 end
 
-def title 
- @title 
+def brand 
+ @brand
 end 
 
-def author=(author)
-  @author = author
+def color=(color)
+  @color = color
 end 
 
-def author 
-  @author
+def color  
+  @color
 end
 
-def page_count=(num)
-  @page_count = num
+def size=(num)
+  @size = num
 end 
 
-def page_count 
-  @page_count 
+def size 
+  @size 
 end 
 
-def genre=(genre)
-  @genre = genre
+def material=(material)
+  @material = material
 end
 
-def genre 
-  @genre 
+def material 
+  @material 
 end 
 
-def turn_page 
-  puts "Flipping the page...wow, you read fast!"
+def cobble 
+  puts "The shoe has been repaired"
 
 end
 
