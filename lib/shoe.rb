@@ -8,10 +8,13 @@ def brand
  @brand
 end 
 
-def properties 
+def properties=(tattered)
+  @tattered = tattered
+end
 
-
-
+def properties
+  @tattered
+end
 
 
 
