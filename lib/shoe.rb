@@ -43,6 +43,10 @@ def material
 end 
 
 def cobble 
+shoe.condition = "new"
+
+
+def cobble 
   puts "The shoe has been repaired"
 
 end
