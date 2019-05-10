@@ -8,9 +8,16 @@ def brand
  @brand
 end 
 
+def properties 
+
+
+
+
+
+
 def color=(color)
   @color = color
-end 
+end
 
 def color  
   @color
