@@ -11,13 +11,16 @@ class Shoe
     BRANDS.any? { |b| b == brand }
   end
   
+  def cobble
+    self.condition = "new
 end 
 
+end
 
 
 
-   def cobble
-    self.condition = "new
+
+   
 
 
 
